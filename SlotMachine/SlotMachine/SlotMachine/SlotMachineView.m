@@ -25,6 +25,7 @@
 }
 
 - (void)fire {
+    [self chainReelsUp];
     [self.reels.firstObject spin];
 }
 
@@ -37,7 +38,6 @@
     for (NSUInteger i = 0; i < count; i ++) {
         ReelView *reel = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([ReelView class]) owner:nil options:nil].firstObject;
         reel.frame = CGRectMake(i * w, 0, w, h);
-        reel.tag = 100 + i;
         reel.circlesLimit = 10;
         NSMutableArray *symbols = [NSMutableArray arrayWithArray:fillingSymbols];
         [symbols insertObject:initialSymbols[i] atIndex:0];
@@ -47,7 +47,6 @@
         [reels addObject:reel];
     }
     self.reels = reels;
-    [self chainReelsUp];
 }
 
 - (void)chainReelsUp {
