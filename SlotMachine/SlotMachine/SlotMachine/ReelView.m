@@ -29,6 +29,7 @@ static NSString *reuseID = @"SymbolCell";
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    self.circlesLimit = 20;
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SymbolCell class]) bundle:nil] forCellReuseIdentifier:reuseID];
 }
 
