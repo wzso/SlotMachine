@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF85F21F1EFD060700F30986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85F21E1EFD060700F30986 /* main.m */; };
+		BF85F2221EFD060700F30986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85F2211EFD060700F30986 /* AppDelegate.m */; };
+		BF85F2251EFD060700F30986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85F2241EFD060700F30986 /* ViewController.m */; };
+		BF85F2281EFD060700F30986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85F2261EFD060700F30986 /* Main.storyboard */; };
+		BF85F22A1EFD060700F30986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85F2291EFD060700F30986 /* Assets.xcassets */; };
+		BF85F22D1EFD060700F30986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85F22B1EFD060700F30986 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF85F21A1EFD060700F30986 /* SlotMachine-Refined.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SlotMachine-Refined.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85F21E1EFD060700F30986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF85F2201EFD060700F30986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF85F2211EFD060700F30986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF85F2231EFD060700F30986 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF85F2241EFD060700F30986 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF85F2271EFD060700F30986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF85F2291EFD060700F30986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF85F22C1EFD060700F30986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF85F22E1EFD060700F30986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF85F2171EFD060700F30986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF85F2111EFD060700F30986 = {
+			isa = PBXGroup;
+			children = (
+				BF85F21C1EFD060700F30986 /* SlotMachine-Refined */,
+				BF85F21B1EFD060700F30986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF85F21B1EFD060700F30986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F21A1EFD060700F30986 /* SlotMachine-Refined.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF85F21C1EFD060700F30986 /* SlotMachine-Refined */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F2201EFD060700F30986 /* AppDelegate.h */,
+				BF85F2211EFD060700F30986 /* AppDelegate.m */,
+				BF85F2231EFD060700F30986 /* ViewController.h */,
+				BF85F2241EFD060700F30986 /* ViewController.m */,
+				BF85F2261EFD060700F30986 /* Main.storyboard */,
+				BF85F2291EFD060700F30986 /* Assets.xcassets */,
+				BF85F22B1EFD060700F30986 /* LaunchScreen.storyboard */,
+				BF85F22E1EFD060700F30986 /* Info.plist */,
+				BF85F21D1EFD060700F30986 /* Supporting Files */,
+			);
+			path = "SlotMachine-Refined";
+			sourceTree = "<group>";
+		};
+		BF85F21D1EFD060700F30986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F21E1EFD060700F30986 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF85F2191EFD060700F30986 /* SlotMachine-Refined */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85F2311EFD060700F30986 /* Build configuration list for PBXNativeTarget "SlotMachine-Refined" */;
+			buildPhases = (
+				BF85F2161EFD060700F30986 /* Sources */,
+				BF85F2171EFD060700F30986 /* Frameworks */,
+				BF85F2181EFD060700F30986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SlotMachine-Refined";
+			productName = "SlotMachine-Refined";
+			productReference = BF85F21A1EFD060700F30986 /* SlotMachine-Refined.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF85F2121EFD060700F30986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zssr;
+				TargetAttributes = {
+					BF85F2191EFD060700F30986 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF85F2151EFD060700F30986 /* Build configuration list for PBXProject "SlotMachine-Refined" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF85F2111EFD060700F30986;
+			productRefGroup = BF85F21B1EFD060700F30986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF85F2191EFD060700F30986 /* SlotMachine-Refined */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF85F2181EFD060700F30986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85F22D1EFD060700F30986 /* LaunchScreen.storyboard in Resources */,
+				BF85F22A1EFD060700F30986 /* Assets.xcassets in Resources */,
+				BF85F2281EFD060700F30986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF85F2161EFD060700F30986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85F2251EFD060700F30986 /* ViewController.m in Sources */,
+				BF85F2221EFD060700F30986 /* AppDelegate.m in Sources */,
+				BF85F21F1EFD060700F30986 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF85F2261EFD060700F30986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF85F2271EFD060700F30986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF85F22B1EFD060700F30986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF85F22C1EFD060700F30986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF85F22F1EFD060700F30986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF85F2301EFD060700F30986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF85F2321EFD060700F30986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SlotMachine-Refined/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wenzhishen.SlotMachine-Refined";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF85F2331EFD060700F30986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SlotMachine-Refined/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wenzhishen.SlotMachine-Refined";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF85F2151EFD060700F30986 /* Build configuration list for PBXProject "SlotMachine-Refined" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85F22F1EFD060700F30986 /* Debug */,
+				BF85F2301EFD060700F30986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85F2311EFD060700F30986 /* Build configuration list for PBXNativeTarget "SlotMachine-Refined" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85F2321EFD060700F30986 /* Debug */,
+				BF85F2331EFD060700F30986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF85F2121EFD060700F30986 /* Project object */;
+}
