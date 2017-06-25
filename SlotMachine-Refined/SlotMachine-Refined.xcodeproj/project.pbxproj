@@ -13,6 +13,8 @@
 		BF85F2281EFD060700F30986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85F2261EFD060700F30986 /* Main.storyboard */; };
 		BF85F22A1EFD060700F30986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85F2291EFD060700F30986 /* Assets.xcassets */; };
 		BF85F22D1EFD060700F30986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85F22B1EFD060700F30986 /* LaunchScreen.storyboard */; };
+		BF85F2371EFD091600F30986 /* SlotMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85F2361EFD091600F30986 /* SlotMachine.m */; };
+		BF85F23A1EFD0A0800F30986 /* ReelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85F2391EFD0A0800F30986 /* ReelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BF85F2291EFD060700F30986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF85F22C1EFD060700F30986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF85F22E1EFD060700F30986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF85F2351EFD091600F30986 /* SlotMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachine.h; sourceTree = "<group>"; };
+		BF85F2361EFD091600F30986 /* SlotMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotMachine.m; sourceTree = "<group>"; };
+		BF85F2381EFD0A0800F30986 /* ReelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReelView.h; sourceTree = "<group>"; };
+		BF85F2391EFD0A0800F30986 /* ReelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		BF85F21C1EFD060700F30986 /* SlotMachine-Refined */ = {
 			isa = PBXGroup;
 			children = (
+				BF85F2341EFD08F700F30986 /* SlotMachine */,
 				BF85F2201EFD060700F30986 /* AppDelegate.h */,
 				BF85F2211EFD060700F30986 /* AppDelegate.m */,
 				BF85F2231EFD060700F30986 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				BF85F21E1EFD060700F30986 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF85F2341EFD08F700F30986 /* SlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F2351EFD091600F30986 /* SlotMachine.h */,
+				BF85F2361EFD091600F30986 /* SlotMachine.m */,
+				BF85F2381EFD0A0800F30986 /* ReelView.h */,
+				BF85F2391EFD0A0800F30986 /* ReelView.m */,
+			);
+			path = SlotMachine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +171,8 @@
 				BF85F2251EFD060700F30986 /* ViewController.m in Sources */,
 				BF85F2221EFD060700F30986 /* AppDelegate.m in Sources */,
 				BF85F21F1EFD060700F30986 /* main.m in Sources */,
+				BF85F23A1EFD0A0800F30986 /* ReelView.m in Sources */,
+				BF85F2371EFD091600F30986 /* SlotMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
