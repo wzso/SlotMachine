@@ -9,13 +9,13 @@ A  slot machine animation for iOS. 🎲
 
 运行效果
 
-![](https://github.com/zssr/SlotMachine/blob/master/images/slotmachine.gif)
+![](https://github.com/0xa6a/SlotMachine/blob/master/images/slotmachine.gif)
 
 MP4视频会清晰一点，[点击下载](https://github.com/0xa6a/SlotMachine/blob/master/images/slotmachine.mp4?raw=true)
 
 ## Trial 2
 
-基于 CA 动画。只要循环改变 `UILabel` 的文字即可，简单直白。基本原理参见：[zssr/LabelTextChangeAnimation](https://github.com/0xa6a/LabelTextChangeAnimation)。
+基于 CA 动画。只要循环改变 `UILabel` 的文字即可，简单直白。基本原理参见：[0xa6a/LabelTextChangeAnimation](https://github.com/0xa6a/LabelTextChangeAnimation)。
 
 完整的老虎机动画实现： [demo](https://github.com/0xa6a/SlotMachine/tree/master/SlotMachine-Refined)
 
